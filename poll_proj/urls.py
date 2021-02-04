@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from poll_proj.poll import views as poll_views
+from poll import views as poll_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
